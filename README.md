@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img alt="Demo" src="/public/sample.png" />
+</div>
 
-## Available Scripts
+## Overview
+A simple and interactive weather application that allows users to get current weather information for any location. The app fetches real-time data from a weather API and displays key details such as temperature, humidity, wind speed, and weather conditions.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Real-time Weather Data**: Get live updates about the weather based on your location or a search query.
+- **Location Search**: Search for any city to view the weather forecast.
+- **Responsive UI**: The app is designed to work smoothly across all devices, ensuring a great user experience.
+- **Clear and Interactive Design**: Easy-to-use interface with clear data presentation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **HTML5**: Structure and content of the web pages.
+- **CSS3**: Styling for the user interface.
+- **JavaScript**: Logic for fetching and displaying weather data.
+- **OpenWeather API**: Provides real-time weather information.
 
-### `npm test`
+## Using the App
+1. Enter a city name in the search bar.
+2. The app will fetch and display the current weather conditions, including:
+    - Temperature
+    - Weather condition (clear, cloudy, rainy, etc.)
+    - Humidity
+    - Wind speed
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run the Weather App Locally
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A modern web browser (Chrome, Firefox, Safari, etc.)
+- An active internet connection.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/jaykhandla/Weather-App.git
+2. Navigate to the project directory:
+   ```bash
+   cd Weather-App
+3. Open index.html in your preferred web browser.
 
-### `npm run eject`
+## API Key Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To fetch weather data, this app uses the OpenWeather API. You can sign up on OpenWeather to get your own API key.
+1. Go to the OpenWeather API page and sign up for an API key.
+2. Once you have your API key, replace the placeholder in script.js with your personal API key:
+   ```bash
+   const apiKey = 'YOUR_API_KEY'
+3. Save the changes, and now your app will be able to fetch live weather data.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can view the live demo of this effect hosted on GitHub Pages [here](https://github.com/jaykhandla/Weather-App).
