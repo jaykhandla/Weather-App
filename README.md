@@ -57,4 +57,4 @@ To fetch weather data, this app uses the OpenWeather API. You can sign up on Ope
 
 ## Live Demo
 
-You can view the live demo of this effect hosted on GitHub Pages [here](https://github.com/jaykhandla/Weather-App).
+You can view the live demo of this effect hosted on GitHub Pages [here](https://jay-weather-app.vercel.app/).
