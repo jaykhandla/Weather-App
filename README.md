@@ -7,6 +7,11 @@
 ## Overview
 A simple and interactive weather application that allows users to get current weather information for any location. The app fetches real-time data from a weather API and displays key details such as temperature, humidity, wind speed, and weather conditions.
 
+
+## Live Demo
+
+You can view a demo of the website by visiting [Weather App](https://jay-weather-app.vercel.app/).
+
 ## Features
 
 - **Real-time Weather Data**: Get live updates about the weather based on your location or a search query.
@@ -54,7 +59,3 @@ To fetch weather data, this app uses the OpenWeather API. You can sign up on Ope
    ```bash
    const apiKey = 'YOUR_API_KEY'
 3. Save the changes, and now your app will be able to fetch live weather data.
-
-## Live Demo
-
-You can view the live demo of this effect hosted on GitHub Pages [here](https://jay-weather-app.vercel.app/).
